@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+<div class="example-wrapper">
+    Blog's url :
+    <ul>
+            <li><a href="{{ '/' }}">Home</a></li>
+            <li><a href="{{ '/lucky' }}">Lucky Page</a></li>
+            <li><a href="{{ '/lucky/number' }}">Lucky Number Page</a></li>
+            <li><a href="{{ '/url' }}">Url Page</a></li>
+            <li><a href="{{ '/_profiler/' }}">_profiler</a></li>
+    </ul>
+</div>
+{% endblock %}
